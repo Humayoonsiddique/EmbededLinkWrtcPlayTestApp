@@ -10,6 +10,7 @@ class MainViewModel: ViewModel() {
 
     fun setLiveData (embededString: String){
 
+        //preparing webview data
 
         text = "<html ><body dir=\"rtl\"; style=\"text-align:justify; width: '100%'\">"//use for justify your text
         text += embededString
