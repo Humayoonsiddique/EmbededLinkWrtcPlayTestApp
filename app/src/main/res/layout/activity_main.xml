@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<data>
+    <variable
+        name="StreamingUrlName"
+        type="com.example.embededlinkwrtcplaytestapp.dataclasses.StreamingURls" />
+</data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".views.MainActivity">
+
+        <TextView
+            android:id="@+id/StreamingUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{StreamingUrlName._streamingURl}"
+            android:layout_marginBottom="20dp"/>
+        <WebView
+            android:id="@+id/mWebView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+    </LinearLayout>
+</layout>

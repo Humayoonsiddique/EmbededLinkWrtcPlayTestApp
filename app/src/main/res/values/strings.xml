@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Embeded Link Wrtc Play Test App</string>
+
+
+    <string name="embeded_url">https://www.dutycom.com.ng:5443/WebRTCAppEE/play.html?name=045175053386305965111709" frameborder="0" allowfullscreen>"</string>
+    <string name="mime_type">text/html; charset=UTF-8</string>
+    <string name="encoding_str">utf-8</string>
+
+
+</resources>
